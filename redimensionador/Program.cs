@@ -62,8 +62,8 @@ namespace redimensionador
                     //Move o arquivo para a pasta finalizados
                     string caminhoFinalizado = Environment.CurrentDirectory + @"\" + finalizado + @"\" + fileInfo.Name;
                     fileInfo.MoveTo(caminhoFinalizado);
-        }
-
+                }
+                
                 Thread.Sleep(new TimeSpan(0, 0, 5));
             }
         }
